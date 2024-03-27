@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WPF_MachineService
-build_property.ProjectDir = D:\FPT\PRN221\Bonus\ObjectDetection\WPF_MachineService\
+build_property.ProjectDir = D:\STUDIES\PRN221\AssignmentV1\ObjectDetection\WPF_MachineService\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

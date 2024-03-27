@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\FPT\PRN221\Bonus\ObjectDetection\WPF_MachineService\obj\Debug\net6.0-windows\
+D:\STUDIES\PRN221\AssignmentV1\ObjectDetection\WPF_MachineService\obj\Debug\net6.0-windows\
 WPF_MachineService
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\FPT\PRN221\Bonus\ObjectDetection\WPF_MachineService\App.xaml
-11407045341
+D:\STUDIES\PRN221\AssignmentV1\ObjectDetection\WPF_MachineService\App.xaml
+2-990990475
 
-12-2059762983
-214-1588175961
-MainWindow.xaml;
+131029130292
+215774728199
+MainWindow.xaml;Scanning.xaml;
 
-True
+False
 
