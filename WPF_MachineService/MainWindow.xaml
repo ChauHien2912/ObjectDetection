@@ -38,6 +38,11 @@
                     </GridView>
                 </ListView.View>
             </ListView>
+
+            <Border Grid.Column="1" Grid.Row="0" BorderBrush="Black" BorderThickness="2" Margin="4">
+                <Image x:Name="imgVideo" Stretch="Uniform" />
+            </Border>
+
             <Grid Grid.ColumnSpan="2" Grid.Row="1">
                 <Border VerticalAlignment="Stretch"
                     BorderBrush="Black"
@@ -48,9 +53,7 @@
                     x:Name="btTakePicture"
                     Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2"
                     Background="#FF5A69EA"
-                    Height="36" Width="92" Foreground="#FFEEEFF3" BorderBrush="#FF100F0F"/>
-            <Image Grid.Column="1" HorizontalAlignment="Center" x:Name="imgVideo" 
-                   Stretch="UniformToFill" Height="284" VerticalAlignment="Center" Width="264"/>
+                    Height="36" Width="92" Foreground="#FFEEEFF3" BorderBrush="#FF100F0F" Click="btTakePicture_Click"/>
         </Grid >
     </Border>
 </Window>

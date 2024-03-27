@@ -1,0 +1,167 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\repository\\implement\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\repository\\implement\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\repository\\implement\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\repository\\implement\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\repository\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\repository\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\repository\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\repository\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|c:\\d_tools\\fpt-learn\\hk6\\prn221\\objectdetection\\wpf_machineservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\wpf_machineservice\\models\\detectionobjectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11F1C2A0-1647-4C1B-9E73-2F45A3CD42DF}|WPF_MachineService\\WPF_MachineService.csproj|solutionrelative:wpf_machineservice\\models\\detectionobjectcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Models\\Product.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Models\\Product.cs",
+              "RelativeToolTip": "WPF_MachineService\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:42:09.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Implement\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Repository\\Implement\\UnitOfWork.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Implement\\UnitOfWork.cs",
+              "RelativeToolTip": "WPF_MachineService\\Repository\\Implement\\UnitOfWork.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAAADYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Interface\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Repository\\Interface\\IUnitOfWork.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Interface\\IUnitOfWork.cs",
+              "RelativeToolTip": "WPF_MachineService\\Repository\\Interface\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.112Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Interface\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Repository\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Interface\\IGenericRepository.cs",
+              "RelativeToolTip": "WPF_MachineService\\Repository\\Interface\\IGenericRepository.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAABsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Implement\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Repository\\Implement\\GenericRepository.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Repository\\Implement\\GenericRepository.cs",
+              "RelativeToolTip": "WPF_MachineService\\Repository\\Implement\\GenericRepository.cs",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPF_MachineService\\MainWindow.xaml",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\MainWindow.xaml",
+              "RelativeToolTip": "WPF_MachineService\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-27T17:01:30.116Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DetectionObjectContext.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Models\\DetectionObjectContext.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\Models\\DetectionObjectContext.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\Models\\DetectionObjectContext.cs",
+              "RelativeToolTip": "WPF_MachineService\\Models\\DetectionObjectContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAUwAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.423Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPF_MachineService\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\D_Tools\\FPT-Learn\\HK6\\PRN221\\ObjectDetection\\WPF_MachineService\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WPF_MachineService\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAIAAAAAAAAAAAAAUwDkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T17:01:30.565Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
