@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF_MachineService"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Border BorderBrush="Black" BorderThickness="4">
-
-        <Grid >
+        Title="MainWindow" Height="450" Width="800"
+        Background="#F0F0F0">
+    
+    <Border BorderBrush="Black" BorderThickness="4" CornerRadius="10">
+        <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="2*" />
                 <ColumnDefinition Width="*" />
@@ -18,39 +19,48 @@
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
             <ListView x:Name="lvListView" 
-                  ItemsSource="{Binding}"
-                  Grid.Column="0" 
-                  Grid.Row="0">
+                      ItemsSource="{Binding}"
+                      Grid.Column="0" 
+                      Grid.Row="0"
+                      Background="White"
+                      BorderThickness="0">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Product Name" 
-                                    DisplayMemberBinding="{Binding ProductName}" 
-                                    Width="100" />
+                                        DisplayMemberBinding="{Binding ProductName}" 
+                                        Width="150" />
                         <GridViewColumn Header="Description" 
-                                    DisplayMemberBinding="{Binding Description}" 
-                                    Width="170" />
+                                        DisplayMemberBinding="{Binding Description}" 
+                                        Width="220" />
                         <GridViewColumn Header="Ingredient" 
-                                    DisplayMemberBinding="{Binding Ingredient}" 
-                                    Width="150" />
+                                        DisplayMemberBinding="{Binding Ingredient}" 
+                                        Width="150" />
                         <GridViewColumn Header="Brand" 
-                                    DisplayMemberBinding="{Binding Brand}" 
-                                    Width="100" />
+                                        DisplayMemberBinding="{Binding Brand}" 
+                                        Width="100" />
                     </GridView>
                 </ListView.View>
             </ListView>
-            <Grid Grid.ColumnSpan="2" Grid.Row="1">
-                <Border VerticalAlignment="Stretch"
+            <Border VerticalAlignment="Stretch"
+                    Grid.Row="1"
                     BorderBrush="Black"
                     MinHeight="6" 
                     BorderThickness="0,2,0,0" />
-            </Grid>
             <Button Content="Scan" 
                     x:Name="btTakePicture"
                     Grid.Column="1" Grid.Row="2" Grid.ColumnSpan="2"
                     Background="#FF5A69EA"
-                    Height="36" Width="92" Foreground="#FFEEEFF3" BorderBrush="#FF100F0F"/>
-            <Image Grid.Column="1" HorizontalAlignment="Center" x:Name="imgVideo" 
-                   Stretch="UniformToFill" Height="284" VerticalAlignment="Center" Width="264"/>
+                    Height="36" Width="92" Foreground="White" BorderBrush="#FF100F0F"
+                    Margin="10"/>
+            <Image Grid.Column="1" 
+                   Grid.Row="0"
+                   HorizontalAlignment="Center" 
+                   x:Name="imgVideo" 
+                   Stretch="UniformToFill" 
+                   Height="284" 
+                   VerticalAlignment="Center" 
+                   Width="264"
+                   Margin="10"/>
         </Grid >
     </Border>
 </Window>
