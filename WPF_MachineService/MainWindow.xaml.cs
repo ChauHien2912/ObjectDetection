@@ -6,6 +6,7 @@ using System.Drawing.Imaging;
 using System.IO;
 using System.Windows;
 using System.Windows.Media.Imaging;
+using AForge.Video.DirectShow;
 
 
 namespace WPF_MachineService
@@ -13,14 +14,15 @@ namespace WPF_MachineService
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    
+
     public partial class MainWindow : Window
     {
         private VideoCaptureDevice videoSource;
         private Bitmap latestFrameBitmap;
+
         public MainWindow()
         {
-            InitializeComponent(); 
+            InitializeComponent();
             StartCamera();
         }
 
@@ -43,10 +45,9 @@ namespace WPF_MachineService
         {
             try
             {
-                Bitmap videoCapture = (Bitmap)eventArgs.Frame.Clone();
-                BitmapImage bitmapImage = ConvertBitmapToBitmapImage(videoCapture);
+                latestFrameBitmap = (Bitmap)eventArgs.Frame.Clone();
+                BitmapImage bitmapImage = ConvertBitmapToBitmapImage(latestFrameBitmap);
 
-                // Sử dụng Dispatcher của imgVideo để cập nhật UI elements từ UI thread của imgVideo
                 imgVideo.Dispatcher.Invoke(() =>
                 {
                     imgVideo.Source = bitmapImage;
@@ -57,7 +58,6 @@ namespace WPF_MachineService
                 MessageBox.Show($"Error in videoSource_NewFrame: {ex.Message}");
             }
         }
-
 
         private BitmapImage ConvertBitmapToBitmapImage(Bitmap bitmap)
         {
@@ -88,15 +88,20 @@ namespace WPF_MachineService
         {
             try
             {
-                // Truy cập camera sử dụng thư viện phù hợp (ví dụ: Emgu CV, AForge.NET)
-                // Thay thế bằng logic truy cập và chụp ảnh từ camera của bạn
-                BitmapImage capturedImage = CaptureImageFromCamera(); // Thay đổi kiểu dữ liệu từ Image sang BitmapImage
+                // Truy cập và chụp ảnh từ camera
+                Bitmap capturedImage = CaptureImageFromCamera();
 
                 if (capturedImage == null)
                 {
                     MessageBox.Show("Lỗi khi chụp ảnh từ camera.");
                     return;
                 }
+
+                // Chuyển đổi Bitmap thành BitmapImage
+                BitmapImage bitmapImage = ConvertBitmapToBitmapImage(capturedImage);
+
+                // Hiển thị hình ảnh trên đối tượng Image
+                imgVideo.Source = bitmapImage;
 
                 // Lưu ảnh đã chụp dưới dạng file JPEG
                 SaveImageToFolder(capturedImage);
@@ -109,16 +114,17 @@ namespace WPF_MachineService
             }
         }
 
-        private BitmapImage CaptureImageFromCamera()
+
+        private Bitmap CaptureImageFromCamera()
         {
             if (latestFrameBitmap != null)
             {
-                return ConvertBitmapToBitmapImage(latestFrameBitmap);
+                return latestFrameBitmap;
             }
             return null;
         }
 
-        private void SaveImageToFolder(BitmapImage image)
+        private void SaveImageToFolder(Bitmap image)
         {
             string folderPath = System.IO.Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ScannedImages");
 
@@ -130,17 +136,13 @@ namespace WPF_MachineService
             string fileName = $"capture_{DateTime.Now:yyyyMMddHHmmss}.jpg";
             string imagePath = System.IO.Path.Combine(folderPath, fileName);
 
-            // Tạo một FileStream để lưu ảnh
-            using (var fileStream = new FileStream(imagePath, FileMode.Create))
-            {
-                // Khởi tạo một encoder để lưu ảnh dưới dạng JPEG
-                JpegBitmapEncoder encoder = new JpegBitmapEncoder();
-                encoder.Frames.Add(BitmapFrame.Create(image)); // Thêm hình ảnh vào encoder
+            // Chuyển đổi System.Drawing.Bitmap thành System.Drawing.Image
+            System.Drawing.Image imageToSave = (System.Drawing.Image)image;
 
-                // Ghi dữ liệu hình ảnh vào file
-                encoder.Save(fileStream);
-            }
+            // Lưu ảnh dưới dạng file JPEG
+            imageToSave.Save(imagePath, System.Drawing.Imaging.ImageFormat.Jpeg);
         }
+
 
         protected override void OnClosing(System.ComponentModel.CancelEventArgs e)
         {
@@ -148,4 +150,5 @@ namespace WPF_MachineService
             StopCamera(); // Dừng camera khi ứng dụng đóng
         }
     }
+
 }
